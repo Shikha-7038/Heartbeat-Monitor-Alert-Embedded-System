@@ -6,7 +6,6 @@
 
 An embedded systems prototype for real-time heart rate monitoring, BPM calculation, and threshold-based alert generation using a pulse sensor.
 
-**[Link to Watch a Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)** _(Optional)_
 
 ## 📖 Overview
 
