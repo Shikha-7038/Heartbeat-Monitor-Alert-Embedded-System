@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "author": "Shikha",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot", "top": -100, "left": -200, "attrs": {} },
+    { "type": "wokwi-lcd1602-i2c", "id": "lcd1", "top": -50, "left": 200, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -100, "left": 0, "attrs": { "color": "green" } },
+    { "type": "wokwi-led", "id": "led2", "top": -50, "left": 0, "attrs": { "color": "red" } },
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": 50, "left": -200, "attrs": {} },
+    { "type": "wokwi-resistor", "id": "r1", "top": -100, "left": 50, "attrs": { "resistance": "220" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": -50, "left": 50, "attrs": { "resistance": "220" } }
+  ],
+  "connections": [
+    ["pot:VCC", "uno:5V", "red"],
+    ["pot:GND", "uno:GND.2", "black"],
+    ["pot:SIG", "uno:A0", "blue"],
+    ["lcd1:VCC", "uno:5V", "red"],
+    ["lcd1:GND", "uno:GND.2", "black"],
+    ["lcd1:SDA", "uno:A4", "yellow"],
+    ["lcd1:SCL", "uno:A5", "green"],
+    ["led1:A", "uno:4", "green"],
+    ["led1:C", "r1:1", "black"],
+    ["r1:2", "uno:GND.2", "black"],
+    ["led2:A", "uno:5", "red"],
+    ["led2:C", "r2:1", "black"],
+    ["r2:2", "uno:GND.2", "black"],
+    ["buzzer:+", "uno:3", "orange"],
+    ["buzzer:-", "uno:GND.2", "black"]
+  ],
+  "serialMonitor": {
+    "baudRate": 9600,
+    "lines": 20
+  }
+}

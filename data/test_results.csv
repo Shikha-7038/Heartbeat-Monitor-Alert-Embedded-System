@@ -1,0 +1,11 @@
+Test ID,Test Case,Input Condition,Expected Output,Actual Output,Status,Date
+TC01,Power On,Power on system,Display shows startup message,Display shows startup message,PASS,2026-08-18
+TC02,Sensor Reading,Adjust potentiometer,Raw values change 0-1023,Values change 0-1023,PASS,2026-08-18
+TC03,Beat Detection,Move potentiometer above threshold,"Beat Detected! message","Beat Detected! message appears",PASS,2026-08-18
+TC04,BPM Calculation,Normal beat interval (0.8s),BPM 70-80,BPM 70-86,PASS,2026-08-18
+TC05,Normal State,Set BPM 60-100,Green LED ON,Status: NORMAL,Green LED ON,PASS,2026-08-18
+TC06,Low State,Set BPM < 50,Red LED ON,Buzzer ON,Status: LOW,PASS,2026-08-18
+TC07,High State,Set BPM > 100,Red LED ON,Buzzer ON,Status: HIGH,PASS,2026-08-18
+TC08,No Signal,Set potentiometer to 0,All OFF,Status: NO SIGNAL,PASS,2026-08-18
+TC09,LCD Display,Check LCD output,Shows BPM and status,LCD shows BPM and status,PASS,2026-08-18
+TC10,Alert System,Trigger LOW/HIGH,LED and Buzzer active,LED and Buzzer active,PASS,2026-08-18

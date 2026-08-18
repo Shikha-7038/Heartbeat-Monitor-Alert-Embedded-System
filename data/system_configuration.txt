@@ -1,0 +1,42 @@
+=====================================
+SYSTEM CONFIGURATION
+=====================================
+
+HARDWARE CONFIGURATION:
+------------------------
+Board: Arduino Uno R3
+Microcontroller: ATmega328P
+Operating Voltage: 5V
+
+Components:
+1. Potentiometer (Simulated Pulse Sensor) - A0
+2. LCD 16x2 I2C - Address: 0x27
+3. Green LED - Digital Pin 4
+4. Red LED - Digital Pin 5
+5. Buzzer - Digital Pin 3
+6. Resistors: 2 x 220Ω
+
+SOFTWARE CONFIGURATION:
+------------------------
+IDE: Arduino IDE
+Libraries: 
+- Wire.h
+- LiquidCrystal_I2C.h
+Baud Rate: 9600
+
+Threshold Settings:
+- LOW_BPM_THRESHOLD: 50
+- HIGH_BPM_THRESHOLD: 100
+- PULSE_THRESHOLD: 550
+- DEBOUNCE_INTERVAL: 300ms
+- SAMPLE_INTERVAL: 10ms
+- DISPLAY_INTERVAL: 500ms
+
+PIN MAPPING:
+------------------------
+A0  - Pulse Sensor Input
+D3  - Buzzer Output
+D4  - Green LED Output
+D5  - Red LED Output
+A4  - LCD SDA (I2C)
+A5  - LCD SCL (I2C)

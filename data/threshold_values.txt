@@ -1,0 +1,24 @@
+=====================================
+THRESHOLD CONFIGURATION
+=====================================
+Project: Heartbeat Monitor with Alert System
+Date: 2026-08-18
+
+EDUCATIONAL THRESHOLDS - NOT MEDICAL ADVICE
+
+Low BPM Threshold: 50 BPM
+Normal Range: 50 - 100 BPM
+High BPM Threshold: 100 BPM
+
+Alert Conditions:
+- BPM < 50: LOW Alert (Red LED ON, Buzzer ON)
+- 50 <= BPM <= 100: NORMAL (Green LED ON)
+- BPM > 100: HIGH Alert (Red LED ON, Buzzer ON)
+- No Signal: All OFF
+
+Default Configuration:
+const int LOW_BPM_THRESHOLD = 50;
+const int HIGH_BPM_THRESHOLD = 100;
+const int PULSE_THRESHOLD = 550;
+const unsigned long DEBOUNCE_INTERVAL = 300;
+const unsigned long DISPLAY_INTERVAL = 500;

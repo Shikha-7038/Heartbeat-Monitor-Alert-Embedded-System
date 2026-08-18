@@ -1,0 +1,34 @@
+=====================================
+HEARTBEAT MONITOR - WOKWI VERSION
+=====================================
+System Ready!
+Adjust potentiometer to simulate heartbeat
+=====================================
+BPM: 0 | Raw: 0 | Filtered: 0 | Status: NO SIGNAL
+BPM: 0 | Raw: 0 | Filtered: 0 | Status: NO SIGNAL
+BPM: 0 | Raw: 0 | Filtered: 0 | Status: NO SIGNAL
+
+♥♥♥ BEAT DETECTED! ♥♥♥
+   Calculated BPM: 30 | Stable: 30
+   ⚠️ ALERT: LOW
+BPM: 30 | Raw: 966 | Filtered: 984 | Status: LOW
+BPM: 30 | Raw: 1023 | Filtered: 1023 | Status: LOW
+
+♥♥♥ BEAT DETECTED! ♥♥♥
+   Calculated BPM: 77 | Stable: 42
+BPM: 42 | Raw: 932 | Filtered: 941 | Status: LOW
+
+♥♥♥ BEAT DETECTED! ♥♥♥
+   Calculated BPM: 103 | Stable: 54
+   Status: NORMAL ✓
+BPM: 54 | Raw: 962 | Filtered: 971 | Status: NORMAL
+
+♥♥♥ BEAT DETECTED! ♥♥♥
+   Calculated BPM: 124 | Stable: 105
+   ⚠️ ALERT: HIGH
+BPM: 105 | Raw: 1023 | Filtered: 1023 | Status: HIGH
+
+♥♥♥ BEAT DETECTED! ♥♥♥
+   Calculated BPM: 55 | Stable: 99
+   Status: NORMAL ✓
+BPM: 99 | Raw: 868 | Filtered: 868 | Status: NORMAL

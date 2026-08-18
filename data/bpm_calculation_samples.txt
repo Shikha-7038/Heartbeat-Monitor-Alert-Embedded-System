@@ -1,0 +1,32 @@
+=====================================
+BPM CALCULATION SAMPLES
+=====================================
+
+Formula: BPM = 60,000 / Time Between Beats (ms)
+
+Sample Calculations:
+-------------------------------
+Beat Interval (ms) | Calculated BPM
+-------------------|---------------
+1000              | 60
+900               | 66
+800               | 75
+750               | 80
+700               | 85
+600               | 100
+500               | 120
+400               | 150
+300               | 200
+
+Actual Test Results from Simulation:
+-------------------------------
+Beat Interval (ms) | Calculated BPM | Status
+-------------------|---------------|--------
+~1400             | 42             | LOW
+~800              | 75             | NORMAL
+~550              | 109            | HIGH
+
+Average BPM Values:
+- Minimum detected: 24 BPM
+- Maximum detected: 124 BPM
+- Most stable range: 70-90 BPM

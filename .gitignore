@@ -1,0 +1,48 @@
+# Arduino IDE files
+*.ino.preprocessed
+*.ino.with_bootloader
+*.ino.hex
+*.elf
+*.eep
+*.lst
+*.sym
+*.map
+*.d
+*.o
+
+# Compiled outputs
+*.hex
+*.bin
+*.elf
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build directories
+/build/
+/tmp/
+/temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Personal files
+*.bak
+*.orig
+*.old
+
+# Secret files
+*.pem
+*.key
+*.crt
+.env
+
+# Logs
+*.log
+logs/
